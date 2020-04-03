@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alexis Dougherty's Portfolio</title>
+</head>
+<body>
+	<center>
+ 	<h1>Welcome to Alexis's Webpage</h1>
+	<br>
+	<br>
+	<p>Click the button to start Kurious, the chat bot that can answer questions about Alexis.</p>
+	<p>You can ask it questions, such as "Why should we hire Alexis?"</p>
+	<p>The mic will turn on immediatly when the button is clicked. To turn off, simply say "Goodbye."</p>
+	<p>(You will know the mic is on whenever the circle is still spinning on the tab.)</p>
+	<p>Please note that for improvment purposes, your audio may be recorded.</p>
+	<br>
+	<form action="{{ url_for('activateKurious') }}"> 
+		<input type=submit value="Talk to Kurious">
+	</form>
+	</center>
+</body>
+</html>
